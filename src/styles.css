@@ -1,4 +1,75 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.App h1 {
+  color: #1976d2;
+  margin-bottom: 16px;
+  font-size: 2rem;
+}
+
+.App p {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.sample-button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-family: inherit;
+}
+
+.sample-button:hover {
+  background-color: #1565c0;
+}
+
+.table-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.table-container h2 {
+  color: #333;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.demo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.demo-table th,
+.demo-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.demo-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #333;
+}
+
+.demo-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.demo-table td {
+  color: #666;
 }
